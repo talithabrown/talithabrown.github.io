@@ -1,0 +1,35 @@
+body {
+    font-family: "Lato", Helvetica, sans-serif;
+    margin: 15px;
+}
+
+h1 {
+    background-color: #cb997e;
+    font-family: "Irish Grover", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h2 {
+    margin: 15px;
+}
+
+ul {
+    margin: 15px;
+}
+
+img {
+    float: right;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+footer {
+    background-color: #cb997e;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50%;
+}
