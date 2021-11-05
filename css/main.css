@@ -26,9 +26,11 @@ ul {
     margin: 15px;
 }
 
-img {
-    float: right;
-    margin: 15px;
+#self-pic {
+    /*float: right;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
     box-shadow: 5px 5px 20px #555;
 }
@@ -39,4 +41,59 @@ footer {
     border-radius: 15px;
     text-align: center;
     line-height: 50%;
+}
+
+/*==========================================================================
+-------------------Design Priciples Page------------------------------------
+============================================================================
+==========================================================================*/
+
+/* .design-principles-page {
+   
+} */
+
+.design-principles-page header {
+    background-color: #cb997e;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.design-principles-page div {
+    background-color: #f0efeb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #555;
+    margin-top: 15px;
+}
+
+.design-principles-page h2 {
+    font-size: 1.5em;
+    margin-top: -35px;
+}
+
+.design-principles-page h3 {
+    background-color: #b7b7a4;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.explanation {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.design-principles-page p {
+    padding-left: 10px;
+}
+
+.design-principles-page a {
+    padding: 10px;
+}
+
+.design-principles-page img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
 }
