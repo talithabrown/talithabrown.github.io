@@ -1,0 +1,116 @@
+body {
+    background-color: #EDE7D9;
+	font-family: 'Mohave', sans-serif;
+}
+
+main {
+	padding: 10px;
+}
+
+h1 {
+    background-color: #283618;
+    color: white;
+	margin: 0px;
+	padding: 25px;
+	font-family: 'Josefin Slab', serif;
+}
+
+h2 {
+	font-family: 'Josefin Slab', serif;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background-color: #606C38;
+	color: white;
+}
+
+/*------------------------------------------------------------------
+-----------------typography page-----------------------------------
+-----------------------------------------------------------------*/
+
+table {
+	padding: 10px;
+}
+
+th, td {
+	padding: 15px;
+	text-align: left;
+	border: 1px solid #999;
+  }
+
+#site-header-sample {
+	background-color: #283618;
+    color: white;
+	font-family: 'Josefin Slab', serif;
+	font-size: 40px;
+}
+
+#primary-navigation-sample {
+	background-color: #606C38;
+    color: white;
+	font-family: 'Mohave', sans-serif;
+	font-size: 30px;
+}
+
+#footer-navigation-sample {
+	background-color: #EDE7D9;
+	font-family: 'Mohave', sans-serif;
+	font-size: 30px;
+}
+
+#heading-1-sample {
+	font-family: 'Josefin Slab', serif;
+	font-size: 30px;
+}
+
+#heading-2-sample {
+	font-family: 'Josefin Slab', serif;
+	font-size: 25px;
+}
+
+#heading-3-sample {
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+}
+
+#paragraph-text-sample {
+	font-family: 'Mohave', sans-serif;
+	font-size: 16px;
+}
+
+/*-----------------------------------------------------------------------
+---------------------------color page-----------------------------------
+----------------------------------------------------------------------*/
+
+#color-img {
+	width: 40%;
+}
+
+
+/*----------------------------------------------------------------------
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+}
