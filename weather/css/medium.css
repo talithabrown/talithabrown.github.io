@@ -1,0 +1,88 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 35.9em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+  
+  .header-and-nav {
+    display: block;
+  }
+  
+  /*------------------------------------------------------------*/
+  
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .social {
+    display: inline-block;
+  }
+  
+  .contact-and-social {
+    grid-column: 2 / 3;
+    padding: 0px;
+    justify-self: center;
+  }
+  
+  footer img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: center;
+  }
+  
+  footer h4 {
+    margin: 0px;
+  }
+
+  #updated {
+    text-align: center;
+    margin: 0px;
+  }
+
+
+  /* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .map {
+      height: 175px;
+  }
+}

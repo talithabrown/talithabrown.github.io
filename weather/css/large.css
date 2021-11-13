@@ -1,0 +1,17 @@
+@media only screen and (min-width: 43.7em) {
+    .contact-and-social {
+        grid-column: 2 / 3;
+        padding: 0px;
+        justify-self: left;
+      }
+      
+      footer img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-self: right;
+      }
+
+    #updated {
+        grid-column: 1 / 3;
+    }
+}
