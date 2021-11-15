@@ -9,9 +9,7 @@ header {
 }
 
 header img {
-	/* width: 80px;
-	height: auto; */
-	height: 50px;
+	height: 40px;
 }
 
 .headings {
@@ -21,14 +19,14 @@ header img {
 }
 
 .headings h1 {
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+	font-size: 1.5rem;
+	margin: 0 0 0 10px;
     font-family: 'Josefin Slab', serif;
 }
 
 .m {
 	font-style: italic;
-	margin-left: 20px;
+	margin: 0 0 0 10px;
 	font-size: .9rem;
 }
 
@@ -92,7 +90,7 @@ nav {
 
 body {
     font-family: 'Mohave', sans-serif;
-    padding: 15px
+    padding: 10px
 }
 
 .placeholder {
