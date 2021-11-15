@@ -4,8 +4,7 @@
 header {
 	padding: 5px 0;
 	display: flex;
-	align-items:center;
-	justify-content:center;
+	justify-content: left;
     font-family: 'Josefin Slab', serif;
 }
 
@@ -17,6 +16,7 @@ header img {
 .headings {
 	display: flex;
 	flex-direction: column;
+	align-self: center;
 }
 
 .headings h1 {
@@ -76,12 +76,11 @@ nav {
 }
 
 .ham {
-
+	position: absolute;
+	top: 20px;
+	right: 20px;
 }
 
-.header-and-nav {
-  display: flex;
-}
 
 /*-----------------------------------------------------------------------*/
 
