@@ -33,7 +33,7 @@
           <div></div>
         </a></li>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Preston</a></li>
+        <li><a class="current" href="#">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
         <li><a href="#">Storm Center</a></li>
@@ -42,18 +42,53 @@
     </nav>
     <main>
       <h2>Preston Idaho</h2>
-      <div class="placeholder">
-        <p>Hero with weather summery</p>
+      <div class="herodiv">
+        <img id="banner-img" src="images/banner.jpg" alt="Picture of trees">
+        <section class="stats">
+         <h2>Weather Summery</h2>
+         <p>Currently: <span id="currently">Sunny</span></p>
+         <p>High: <span id="high">73 F</span></p>
+         <p>Wind Chill: <span id="wind-chill">F</span></p>
+         <p>Humidity: <span id="humidity">65%</span></p>
+         <p>Wind Speed: <span id="wind-speed">7 mph</span></p>
+        </section>
       </div>
-      <div class="placeholder">
+      <div class="forecast">
         <p>Five day Forecast</p>
+        <table>
+          <tr>
+            <th>Wed</th>
+            <th>Thurs</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+          </tr>
+          <tr>
+            <td><img class="icon" src="images/sunny-icon-min.png" alt="sunny icon"></td>
+            <td><img class="icon" src="images/partly-cloudy-icon-min.png" alt="partly cloudy icon"></td>
+            <td><img class="icon" src="images/rain-icon-min.png" alt="rain icon"></td>
+            <td><img class="icon" src="images/sunny-icon-min.png" alt="sunny icon"></td>
+            <td><img class="icon" src="images/storm-icon-min.png" alt="storm icon"></td>
+          </tr>
+          <tr>
+            <td>75 F</td>
+            <td>70 F</td>
+            <td>59 F</td>
+            <td>76 F</td>
+            <td>54 F</td>
+          </tr>
+        </table>
       </div>
-      <div class="placeholder">
-        <p>Article</p>
-      </div>
-      <div class="placeholder">
-        <p>Contact Information</p>
-      </div>
+      <article class="article">
+        <img id="running" src="images/running-min.jpg" alt="picture of people running">
+        <h2>Preston Idaho Triathlon</h2>
+        <p>This Coming Saturday at 10:00 AM Preston will be hosting their 5th anneal triathlon! 
+          Everyone is welcome for registration and teams are allowed! A triathlon is a multisport 
+          event that involves swimming, cycling, and running in that order. This triathlon will 
+          include swimming 0.5 miles, cycling 12 miles, and running 3 miles. There is a 20 dollar 
+          entry fee per individual. All profits will go to towards our local food kitchen. for more 
+          informatin contact Shelly Jones at shellyjones11@gmail.com. </p>
+      </article>
     </main>
     <footer>
       <div class="contact-and-social">

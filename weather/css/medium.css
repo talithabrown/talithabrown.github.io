@@ -17,6 +17,16 @@
   .header-and-nav {
     display: block;
   }
+  /*-------------------------------------------------------------*/
+
+  .stats {
+    position: absolute;
+    bottom: 25px;
+    right: 50px;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .8;
+  }
   
   /*------------------------------------------------------------*/
   

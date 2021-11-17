@@ -57,11 +57,6 @@ nav {
 	transition: 0.5s;
 }
 
-.navigation a:hover {
-	color: white;
-	background-color: black;
-}
-
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
@@ -71,6 +66,14 @@ nav {
     
 }
 
+.navigation .current {
+	text-decoration: underline;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: black;
+}
 
 .ham div {
   width: 25px;
@@ -81,9 +84,10 @@ nav {
 
 .ham {
 	position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 10px;
+	right: 10px;
 }
+
 
 
 /*-----------------------------------------------------------------------*/
@@ -91,6 +95,33 @@ nav {
 body {
     font-family: 'Mohave', sans-serif;
     padding: 10px
+}
+
+#banner-img {
+	width: 100%;
+}
+
+.herodiv {margin: 10px auto; position: relative;}
+h1, h2, p {margin: 3px;}
+
+.stats {
+	background-color: #283618;
+	color: white;
+	border: 1px solid #000;
+	padding: 1.5rem;
+
+}
+
+#running {
+	width: 100%;
+}
+
+.icon {
+	width: 70%;
+}
+
+table {
+	width: 100%;
 }
 
 .placeholder {
