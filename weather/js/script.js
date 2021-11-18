@@ -7,6 +7,16 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
 document.getElementById("updated").innerHTML = `Last Updated: ${document.lastModified}`;
+/*------------------------------------------------------------------------------------------------------------*/
+
+let message = document.getElementById("message")
+
+const d = new Date();
+let day = d.getDay()
+
+if (day == 5) {
+  message.style.display = "block"
+}
 
 
 /*** Programming Notes **************************************

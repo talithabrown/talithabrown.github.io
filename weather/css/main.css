@@ -1,11 +1,24 @@
 /*Phone View----------------------------------------
 ---------------------------------------------------*/
 
+#message {
+	display: none;
+	background-color: #606C38;
+	opacity: .8;
+	padding: 10px;
+	color: white;
+}
+
+#message p {
+	align-self: center;
+}
+
 header {
 	padding: 5px 0;
 	display: flex;
 	justify-content: left;
     font-family: 'Josefin Slab', serif;
+	margin-top: 20px;
 }
 
 header img {
@@ -67,7 +80,7 @@ nav {
 }
 
 .navigation .current {
-	text-decoration: underline;
+	border: 1px solid;
 }
 
 .navigation a:hover {
@@ -83,9 +96,11 @@ nav {
 }
 
 .ham {
-	position: absolute;
-	top: 10px;
-	right: 10px;
+	float: right;
+	margin-top: -70px;
+	/* position: absolute;
+	top: 75px;
+	right: 10px; */
 }
 
 
@@ -109,29 +124,57 @@ h1, h2, p {margin: 3px;}
 	color: white;
 	border: 1px solid #000;
 	padding: 1.5rem;
+	margin-top: 10px;
 
+}
+
+.stats h2 {
+	margin-bottom: 10px;
 }
 
 #running {
 	width: 100%;
+	border-radius: 7px;
+}
+
+.forecast {
+	margin-top: 50px;
+	margin-bottom: 65px;
+}
+
+.forecast h3 {
+	text-align: center;
 }
 
 .icon {
 	width: 70%;
 }
 
-table {
-	width: 100%;
+td, th {
+	text-align: center;
+	padding: 5px;
 }
 
-.placeholder {
-  background-color: #DEE2E6;
-  padding: 5px;
-  margin-top: 7px;
-  margin-bottom: 7px;
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+	margin: 15px;
+}
+
+.article {
+	background-color: #EDE7D9;
+	padding: 20px;
+	box-shadow: 2px 2px 15px;
+	margin: 15px;
+
+}
+
+.article h3 {
+	padding: 5px;
 }
 
 /*----------------------------------------------------------------------*/
+
 
 footer ul {
   list-style-type: none; /* Remove bullets */

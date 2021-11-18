@@ -1,5 +1,9 @@
 /* Media Query for medium+ views */
 @media only screen and (min-width: 35.9em) {
+
+  
+
+  /*-----------------------------------------------------------*/
 	.navigation {
 		display: flex;
 	}
@@ -27,6 +31,15 @@
     box-shadow: 0 0 30px #333;
     opacity: .8;
   }
+  /*-----------------------------------------------------------*/
+
+  table {
+    margin: 0px;
+  }
+
+  /*------------------------------------------------------------*/
+
+  
   
   /*------------------------------------------------------------*/
   
@@ -36,6 +49,7 @@
     grid-template-rows: 1fr auto;
     grid-gap: 20px;
     padding: 20px;
+    margin-top: 100px;
   }
   
   .social {
@@ -51,7 +65,7 @@
   footer img {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    justify-self: center;
+    justify-self: right;
   }
   
   footer h4 {
