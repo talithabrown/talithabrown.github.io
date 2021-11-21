@@ -7,6 +7,11 @@ hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive'
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
 document.getElementById("updated").innerHTML = `Last Updated: ${document.lastModified}`;
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+
+
 /*------------------------------------------------------------------------------------------------------------*/
 
 let message = document.getElementById("message")
