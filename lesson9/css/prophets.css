@@ -1,0 +1,42 @@
+
+h1 {
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+}
+
+body {
+    font-family: 'Mohave', sans-serif;
+    padding: 10px;
+}
+
+section {
+    background-color: #eae2b7;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+@media (min-width: 32.5em) {
+    .cards {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 56.5em) {
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
