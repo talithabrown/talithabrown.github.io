@@ -54,38 +54,36 @@
       </picture>
       <section class="stats">
         <h2>Weather Summery</h2>
-        <p>Currently: <span id="currently">Sunny</span></p>
-        <p>High: <span class="high">45</span>F</p>
+        <p>Currently: <span id="currently"></span></p>
+        <p>Temperature: <span id="temp"></span> F</p>
         <p>Wind Chill: <span id="wind-chill"></span></p>
-        <p>Humidity: <span id="humidity">65%</span></p>
-        <p>Wind Speed: <span class="wind-speed">7</span>mph</p>
-        <span id="temp">45</span>
-        <span id="speed">7</span>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>Wind Speed: <span id="wind-speed"></span> mph</p>
       </section>
     </div>
     <div class="forecast">
       <h3>Five day Forecast</h3>
       <table>
         <tr>
-          <th>Wed</th>
-          <th>Thurs</th>
-          <th>Fri</th>
-          <th>Sat</th>
-          <th>Sun</th>
+          <th><span id="weekday1"></span></th>
+          <th><span id="weekday2"></span></th>
+          <th><span id="weekday3"></span></th>
+          <th><span id="weekday4"></span></th>
+          <th><span id="weekday5"></span></th>
         </tr>
         <tr>
-          <td><img class="icon" src="images/sunny-icon-min.png" alt="sunny icon"></td>
-          <td><img class="icon" src="images/partly-cloudy-icon-min.png" alt="partly cloudy icon"></td>
-          <td><img class="icon" src="images/rain-icon-min.png" alt="rain icon"></td>
-          <td><img class="icon" src="images/sunny-icon-min.png" alt="sunny icon"></td>
-          <td><img class="icon" src="images/storm-icon-min.png" alt="storm icon"></td>
+          <td><img class="icon" id="icon1"></td>
+          <td><img class="icon" id="icon2"></td>
+          <td><img class="icon" id="icon3"></td>
+          <td><img class="icon" id="icon4"></td>
+          <td><img class="icon" id="icon5"></td>
         </tr>
         <tr>
-          <td>75 F</td>
-          <td>70 F</td>
-          <td>59 F</td>
-          <td>76 F</td>
-          <td>54 F</td>
+          <td><span id="day1"></span> F</td>
+          <td><span id="day2"></span> F</td>
+          <td><span id="day3"></span> F</td>
+          <td><span id="day4"></span> F</td>
+          <td><span id="day5"></span> F</td>
         </tr>
       </table>
     </div>
@@ -117,10 +115,12 @@
     <img class="map" src="images/idaho-photo.jpg" alt="Location Map">
 
     <h6 id="updated">date</h6>
+    <h6 id="source-link">Weather Data Source: <a href="https://openweathermap.org" target="_blank">openweathermap.org</a></h6>
+    
   </footer>
 
   <script src="js/script.js"></script>
-  <script src="js/windchill.js"></script>
+  <script src="js/weatherapi.js"></script>
 
 </body>
 

@@ -1,0 +1,203 @@
+/*Phone View----------------------------------------
+---------------------------------------------------*/
+
+#message {
+	display: none;
+	background-color: #606C38;
+	opacity: .8;
+	padding: 10px;
+	color: white;
+}
+
+#message p {
+	align-self: center;
+}
+
+header {
+	padding: 5px 0;
+	display: flex;
+	justify-content: left;
+    font-family: 'Josefin Slab', serif;
+	margin-top: 20px;
+}
+
+header img {
+	height: 40px;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.headings h1 {
+	font-size: 1.5rem;
+	margin: 0 0 0 10px;
+    font-family: 'Josefin Slab', serif;
+}
+
+.m {
+	font-style: italic;
+	margin: 0 0 0 10px;
+	font-size: .9rem;
+}
+
+/*-----------------------------------------------------------*/
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+	color: #283618;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+}
+
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+    
+}
+
+.navigation .current {
+	border: 1px solid;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: black;
+}
+
+.ham div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.ham {
+	float: right;
+	margin-top: -70px;
+	/* position: absolute;
+	top: 75px;
+	right: 10px; */
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+
+body {
+    font-family: 'Mohave', sans-serif;
+    padding: 10px
+}
+
+.banner-img {
+	width: 100%;
+}
+
+.herodiv {margin: 10px auto; position: relative;}
+h1, h2, p {margin: 3px;}
+
+.stats {
+	background-color: #283618;
+	color: white;
+	border: 1px solid #000;
+	padding: 1.5rem;
+	margin-top: 10px;
+}
+
+.stats #currently {
+	text-transform: capitalize;
+}
+
+.stats h2 {
+	margin-bottom: 10px;
+}
+
+#running {
+	width: 100%;
+	border-radius: 7px;
+}
+
+.forecast {
+	margin-top: 50px;
+	margin-bottom: 65px;
+}
+
+.forecast h3 {
+	text-align: center;
+}
+
+.icon {
+	width: 70%;
+}
+
+td, th {
+	text-align: center;
+	padding: 5px;
+}
+
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.article {
+	background-color: #EDE7D9;
+	padding: 20px;
+	box-shadow: 2px 2px 15px;
+	margin: 15px;
+
+}
+
+.article h3 {
+	padding: 5px;
+}
+
+/*----------------------------------------------------------------------*/
+
+
+footer ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+}
+
+footer h4 {
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.social {
+  display: none;
+}
+
+.map {
+    height: 125px;
+}
+
+#updated {
+    color: red;
+}
+
