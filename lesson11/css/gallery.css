@@ -1,0 +1,41 @@
+
+.gallery-images {
+    width: 100%;
+}
+
+.image-card {
+  box-shadow: 4px 4px 8px 4px rgba(0.5,0.5,0.5,0.5);
+  transition: 0.3s;
+  display:inline-block;
+  margin: 10px;
+}
+
+
+
+/*-----------------medium view--------------------------*/
+@media (min-width: 35.9em) {
+
+  .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      
+  }
+}
+
+
+/*----------------------------large view---------------------------------*/
+@media (min-width: 65em) {
+
+  .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      
+  }
+  
+  .image-card:hover {
+      box-shadow: 8px 8px 8px 8px rgba(0.5,0.5,0.5,0.5);
+  }
+
+}

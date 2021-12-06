@@ -1,7 +1,7 @@
 
 // -------------------------populate current weather-----------------------------------------------------------
 
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=c5142f0c59b758948afc826391c4d07a&units=imperial"
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=c5142f0c59b758948afc826391c4d07a&units=imperial"
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -44,7 +44,7 @@ for (let i = 0; i < 5; i++) {
 
 
 
-const apiURL2 = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=c5142f0c59b758948afc826391c4d07a&units=imperial";
+const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=c5142f0c59b758948afc826391c4d07a&units=imperial";
 
 fetch(apiURL2)
   .then((response) => response.json())
