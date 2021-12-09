@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <title>Preston Town Weather and Events</title>
+  <meta name="description" content="Preston town child page for the weather website.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Mohave&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <p id="message">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+  <header>
+    <img src="images/black_umbrella_icon.png" alt="Umbrlla Logo">
+    <section class="headings">
+      <h1>Community Weather</h1>
+      <p class="m">A weather source you can depend on!</p>
+    </section>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a class="ham" href="#">
+          <div></div>
+          <div></div>
+          <div></div>
+        </a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a class="current" href="preston.html">Preston</a></li>
+      <li><a href="soda-springs.html">Soda Springs</a></li>
+      <li><a href="fish-haven.html">Fish Haven</a></li>
+      <li><a href="stormcenter.html">Storm Center</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Preston Idaho</h2>
+    <div class="herodiv">
+      <!-- <img id="banner-img" src="images/banner.jpg" alt="Picture of trees"> -->
+      <picture>
+        <!-- <source class="banner-img" media="(max-width: 450px)" srcset="images/banner-img-450.jpg">
+        <source class="banner-img" media="(max-width: 900px)" srcset="images/banner-img-900.jpg">
+        <img class="banner-img" src="images/banner-img-1100.jpg" alt="Picture of grass and trees and sky"> -->
+        <img class="banner-img" src="images/banner.jpg" alt="Landscape picture taken at sunrise">
+      </picture>
+      <section class="stats">
+        <h2>Weather Summery</h2>
+        <p>Currently: <span id="currently"></span></p>
+        <p>Temperature: <span id="temp"></span> F</p>
+        <p>Wind Chill: <span id="wind-chill"></span></p>
+        <p>Humidity: <span id="humidity"></span>%</p>
+        <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+      </section>
+    </div>
+    <div class="forecast">
+      <h3>Five day Forecast</h3>
+      <table>
+        <tr>
+          <th><span id="weekday1"></span></th>
+          <th><span id="weekday2"></span></th>
+          <th><span id="weekday3"></span></th>
+          <th><span id="weekday4"></span></th>
+          <th><span id="weekday5"></span></th>
+        </tr>
+        <tr>
+          <td><img class="icon" id="icon1" alt="weather icon"></td>
+          <td><img class="icon" id="icon2" alt="weather icon"></td>
+          <td><img class="icon" id="icon3" alt="weather icon"></td>
+          <td><img class="icon" id="icon4" alt="weather icon"></td>
+          <td><img class="icon" id="icon5" alt="weather icon"></td>
+        </tr>
+        <tr>
+          <td><span id="day1"></span> F</td>
+          <td><span id="day2"></span> F</td>
+          <td><span id="day3"></span> F</td>
+          <td><span id="day4"></span> F</td>
+          <td><span id="day5"></span> F</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="events">
+      <h3>Upcoming Events</h3>
+    </div>
+
+
+    <div class="article">
+      <img id="running" src="images/running-min.jpg" alt="picture of people running">
+      <h3>Preston Idaho Triathlon</h3>
+      <p>This Coming Saturday at 10:00 AM Preston will be hosting their 5th annual triathlon!
+        Everyone is welcome for registration and teams are allowed! A triathlon is a multisport
+        event that involves swimming, cycling, and running in that order. This triathlon will
+        include swimming 0.5 miles, cycling 12 miles, and running 3 miles. There is a 20 dollar
+        entry fee per individual. All profits will go to towards our local food kitchen. For more
+        information contact Shelly Jones at shellyjones11@gmail.com.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="contact-and-social">
+      <h4>Contact Information</h4>
+      <ul>
+        <li>Location: Preston Idaho</li>
+        <li>Phone Number: 800-111-1234</li>
+        <li>Email: communityweather@gmail.com</li>
+      </ul>
+      <div class="social">
+        <a class="fa fa-facebook" href="https://www.facebook.com/login" target="_blank"></a>
+        <a class="fa fa-twitter" href="https://twitter.com/?lang=en" target="_blank"></a>
+      </div>
+    </div>
+
+    <img class="map" src="images/idaho-photo.jpg" alt="Location Map">
+
+    <p class="wireframe-link">&copy; CommunityWeather | Talitha Brown | terms-of-use-link</p>
+
+    <p id="updated">date</p>
+    <p id="source-link">Weather Data Source: <a href="https://openweathermap.org" target="_blank">openweathermap.org</a></p>
+    
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/weatherapi.js"></script>
+  <script src="js/preston-events.js"></script>
+
+</body>
+
+</html>
