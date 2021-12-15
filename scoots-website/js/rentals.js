@@ -3,11 +3,10 @@
 //     console.log(json); // this will show the info it in firebug console
 // });
 
-var mydata = JSON.parse('rental-info');
-    alert(mydata[0].name);
-    alert(mydata[0].age);
-    alert(mydata[1].name);
-    alert(mydata[1].age);
+
+$.getJSON("data.json", function(json) {
+    console.log(json); // this will show the info it in firebug console
+});
 
     // for (let i = 0; i < towns.length; i++) {
     //     let card = document.createElement('section');
