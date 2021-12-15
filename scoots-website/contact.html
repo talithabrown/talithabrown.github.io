@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Scoots Rentals Contact Page</title>
+    <meta name="description" content="Contact page for Scoots rental website.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Balsamiq+Sans&family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div class="header-and-nav">
+
+        <header class="home-header">
+            <img src="images/scooter-icon.png" alt="Scooter logo">
+            <section class="headings">
+                <h1>Scoots</h1>
+            </section>
+            <a class="ham" href="#">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="rentals.html">Rentals</a></li>
+                <li><a class="nav-link" href="reservations.html">Reservations</a></li>
+                <li><a class="nav-link" href="tours.html">Tours</a></li>
+                <li><a class="current nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <main>
+
+        <div class="contact-info-div>">
+            <h2>Contact Us</h2>
+            <p>Phone: 123-456-7891</p>
+            <p>Email: scoots@gmail.com</p>
+            <p>Address: Rafael E. Melgar, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+        </div>
+
+        <h2>Questions Form</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" minlength="5" pattern="[a-zA-Z\s]+" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top" for="additional" required>Questions or Comments</label>
+                <textarea id="additional" name="additional" rows="4" cols="50"></textarea>
+            </fieldset>
+    
+            <input type="submit" value="Send My Message" class="submitBtn">
+    
+        </form>
+
+        <h2>Our Locations</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d170018.36893408888!2d-86.99278387311816!3d20.433707020905306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sPlaya%20del%20Carmen-Cozumel%20Ferry%20dock%20in%20el%20Centro%20de%20Cozumel!5e0!3m2!1sen!2sus!4v1639417560422!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d169247.02064858278!2d-86.99519969357593!3d20.438701485500278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTerminal%20Puerta%20Maya%20Cozumel%20mexico!5e0!3m2!1sen!2sus!4v1639417752574!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </main>
+
+    <footer>
+        <div class="social-div">
+            <a class="social-link facebook" href="https://www.facebook.com/login" target="_blank"><img class="social-icon" src="images/facebook-icon.png" alt="Facebook Icon"></a>
+            <a class="social-link instagram" href="https://www.instagram.com/" target="_blank"><img class="social-icon" src="images/instagram-icon.png" alt="Instagram Icon"></a>
+            <a class="social-link youtube" href="https://www.youtube.com/" target="_blank"><img class="social-icon" src="images/youtube-icon.png" alt="YouTube Icon"></a>
+            <a class="social-link twitter" href="https://twitter.com/" target="_blank"><img class="social-icon" src="images/twitter-icon.png" alt="Twitter Icon"></a>
+        </div>
+        <div class="contact-div>">
+            <p>Phone: 123-456-7891</p>
+            <p>Email: scoots@gmail.com</p>
+            <p>Address: Rafael E. Melgar, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+        </div>
+        <p class="copyright">&copy; Scoots | Talitha Brown | <span id="updated">date</span> | <a href="https://openweathermap.org" target="_blank">Weather Data Source</a></p>
+    </footer>
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
