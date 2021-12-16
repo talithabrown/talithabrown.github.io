@@ -1,0 +1,47 @@
+
+{
+  "rentals": [
+    {
+      "name": "Honda Metro Scooter",
+      "reserveHalfDayPrice": "$20",
+      "reserveFullDayPrice": "$30",
+      "walkinHalfDayPrice": "$25",
+      "walkinFullDayPrice": "$35"
+    },
+    {
+      "name": "Honda Dio Scooter",
+      "reserveHalfDayPrice": "$30",
+      "reserveFullDayPrice": "$40",
+      "walkinHalfDayPrice": "$35",
+      "walkinFullDayPrice": "$45"
+    },
+    {
+      "name": "Honda PCX150 Scooter",
+      "reserveHalfDayPrice": "$40",
+      "reserveFullDayPrice": "$50",
+      "walkinHalfDayPrice": "$45",
+      "walkinFullDayPrice": "$55"
+    },
+    {
+      "name": "Honda Pioneer ATV",
+      "reserveHalfDayPrice": "$50",
+      "reserveFullDayPrice": "$70",
+      "walkinHalfDayPrice": "$60",
+      "walkinFullDayPrice": "$80"
+    },
+    {
+      "name": "Jeep Wrangler—4 door with a/c",
+      "reserveHalfDayPrice": "$70",
+      "reserveFullDayPrice": "$100",
+      "walkinHalfDayPrice": "$85",
+      "walkinFullDayPrice": "$125"
+    },
+    {
+      "name": "Jeep Wrangler—2 door",
+      "reserveHalfDayPrice": "$60",
+      "reserveFullDayPrice": "$85",
+      "walkinHalfDayPrice": "$70",
+      "walkinFullDayPrice": "$90"
+    }
+  ]
+}

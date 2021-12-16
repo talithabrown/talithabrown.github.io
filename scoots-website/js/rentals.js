@@ -1,11 +1,11 @@
-const requestURL = 'https://talithabrown.github.io/data.json';
+const requestURL = 'https://talithabrown21.github.io/data.json';
 
 fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        //console.table(jsonObject);  
+        // console.table(jsonObject);  
         const rentals = jsonObject['rentals'];
         
         let tableRow = document.createElement('tr');
