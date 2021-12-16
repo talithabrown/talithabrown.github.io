@@ -1,5 +1,3 @@
-// https://github.com/talithabrown/talithabrown.github.io/commit/21d4a651113efe3b5c0747df00f19b400e725c5b
-
 const requestURL = 'https://talithabrown.github.io/data.json';
 
 fetch(requestURL)
@@ -13,6 +11,8 @@ fetch(requestURL)
         let tableRow = document.createElement('tr');
 
         for (let i = 0; i < rentals.length; i++) {
+            let tableRow = document.createElement('tr');
+
             let td1 = document.createElement('td');
             td1.textContent = rentals[i].name;
             tableRow.appendChild(td1);
@@ -36,55 +36,4 @@ fetch(requestURL)
             document.querySelector('table.price-table').appendChild(tableRow);
         };
 
-        // document.querySelector('table.price-table').appendChild(tableRow);
-    })
-
-
-
-    
-    // temporary checking for valid response and data parsing
-    //     const towns = jsonObject['towns'];
-
-    //     let card = document.createElement('section');
-
-    //     for (let i = 0; i < towns[6].events.length; i++) {
-    //         let p = document.createElement('p');
-    //         p.textContent = towns[6].events[i];
-    //         card.appendChild(p);
-    //     };
-
-    //     document.querySelector('div.events').appendChild(card);
-
-    // });
-
-    
-    // for (let i = 0; i < towns.length; i++) {
-    //     let card = document.createElement('section');
-
-    //     let h2 = document.createElement('h2');
-    //     h2.textContent = towns[i].name;
-    //     card.appendChild(h2);
-
-    //     let p = document.createElement('p');
-    //     p.textContent = towns[i].motto;
-    //     card.appendChild(p);
-
-    //     let h4 = document.createElement('h4');
-    //     h4.textContent = 'Year Founded: ' + towns[i].yearFounded;
-    //     card.appendChild(h4);
-
-    //     let he4 = document.createElement('h4');
-    //     he4.textContent = 'Population: ' + towns[i].currentPopulation;
-    //     card.appendChild(he4);
-
-    //     let hea4 = document.createElement('h4');
-    //     hea4.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
-    //     card.appendChild(hea4);
-        
-    //     let image = document.createElement('img');
-    //     image.setAttribute('src', `images/town-images/${towns[i].photo}`);
-    //     image.setAttribute('alt', towns[i].name);
-    //     card.appendChild(image);
-
-    //     document.querySelector('div.cards').appendChild(card);
-    // };
+    });
